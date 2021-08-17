@@ -10,7 +10,7 @@
           repudiandae amet, possimus qui placeat perspiciatis voluptas a officia
           porro!
         </p>
-        <p class="text-2xl font-bold pt-6 lg:pt-20">Go to</p>
+        <p class="text-2xl font-bold pt-6 lg:pt-20">Go to a section</p>
         <div class="flex flex-row pt-4 lg:pt-8">
             <p class="text-xl font-semibold ml-6">Education</p>
             <p class="text-xl font-semibold ml-6">Experience</p>
