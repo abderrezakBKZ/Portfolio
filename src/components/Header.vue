@@ -19,16 +19,28 @@
         </p>
         <p class="text-2xl font-bold pt-6 lg:pt-20">Go to a section</p>
         <div class="md:flex grid grid-cols-1 gap-2 md:flex-row pt-4 lg:pt-8">
-          <p class="text-xl font-semibold ml-6" @click="scroll('education')">
+          <p
+            class="text-xl font-semibold ml-6 cursor-pointer"
+            @click="scroll('education')"
+          >
             Education
           </p>
-          <p class="text-xl font-semibold ml-6" @click="scroll('experience')">
+          <p
+            class="text-xl font-semibold ml-6 cursor-pointer"
+            @click="scroll('experience')"
+          >
             Experience
           </p>
-          <p class="text-xl font-semibold ml-6" @click="scroll('skills')">
+          <p
+            class="text-xl font-semibold ml-6 cursor-pointer"
+            @click="scroll('skills')"
+          >
             Skills
           </p>
-          <p class="text-xl font-semibold ml-6" @click="scroll('contact')">
+          <p
+            class="text-xl font-semibold ml-6 cursor-pointer"
+            @click="scroll('contact')"
+          >
             Contact
           </p>
         </div>
