@@ -7,8 +7,8 @@
         alt=""
       />
       <div class="lg:flex lg:flex-col lg:justify-center mx-6 lg:mx-8">
-        <p class="text-4xl font-bold py-6 font-sans">About me</p>
-        <p class="text-xl font-normal font-sans">
+        <p class="text-4xl font-bold py-6">About me</p>
+        <p class="text-xl font-normal">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil animi
           id ipsa. Quis, quam omnis atque laboriosam inventore architecto sequi
           repudiandae amet, possimus qui placeat perspiciatis voluptas a officia
@@ -18,7 +18,7 @@
           hic odio itaque!
         </p>
         <p class="text-2xl font-bold pt-6 lg:pt-20">Go to a section</p>
-        <div class="flex flex-row pt-4 lg:pt-8">
+        <div class="md:flex grid grid-cols-1 gap-2 md:flex-row pt-4 lg:pt-8">
           <p class="text-xl font-semibold ml-6">Education</p>
           <p class="text-xl font-semibold ml-6">Experience</p>
           <p class="text-xl font-semibold ml-6">Skills</p>
@@ -34,3 +34,9 @@ export default {
   name: "Header",
 };
 </script>
+
+<style scoped>
+* {
+  position: relative;
+}
+</style>

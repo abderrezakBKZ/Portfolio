@@ -4,7 +4,8 @@
       <p class="text-4xl font-bold pt-6 pb-3">Skills</p>
     </div>
 
-    <div
+<div class="mx-4">
+      <div
       class="
         mx-auto
         text-center
@@ -17,8 +18,8 @@
         lg:justify-center
         lg:mx-auto
         bg-gradient-to-r
-        from-gray-100
-        to-gray-400
+        from-purpoleLine
+        to-blueDots
         rounded-xl
         lg:rounded-full
 
@@ -62,6 +63,7 @@
           <p class="text-lg font-bold">Laravel</p>
       </span>
     </div>
+</div>
   </div>
 </template>
 

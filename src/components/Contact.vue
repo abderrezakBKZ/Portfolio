@@ -3,7 +3,7 @@
     <p class="text-4xl font-bold pt-6 pb-3 mx-6 md:mx-8 font-sans mt-6">
       Contact
     </p>
-    <div class="flex flex-row justify-around py-6">
+    <div class="grid grid-cols-1 gap-3 md:flex md:flex-row justify-around py-6">
       <span class="text-center">
         <i class="fas fa-phone-alt fa-2x"></i>
         <p class="text-lg font-semibold">+33 7 58 60 18 96</p>

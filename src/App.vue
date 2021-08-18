@@ -1,30 +1,36 @@
 <template>
-<div class="">
-  <Header/>
-  <Education/>
-  <Experience/>
-  <Skills/>
-  <Contact/>
+<div>
+  <ParticlesJS/>
+ 
 
 </div>
   
 </template>
 
 <script>
-import Header from './components/Header.vue'
-import Education from './components/Education.vue'
-import Skills from './components/Skills.vue'
-import Experience from './components/Experience.vue';
-import Contact from './components/Contact.vue'
+
+
+import ParticlesJS from './components/ParticulesJS.vue'
+
+
+
+
 export default {
   name : 'App',
   components : {
-    Header,
-    Education,
-    Skills,
-    Experience,
-    Contact,
+  
+    ParticlesJS
+    
     
   }
 }
 </script>
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap');*{
+  font-family: 'Quicksand', sans-serif;
+  
+}
+</style>
+
