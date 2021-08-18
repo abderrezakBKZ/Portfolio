@@ -2,12 +2,12 @@
   <div>
     <div class="flex flex-col lg:flex-row-reverse">
       <img
-        src="../../sérine.jpg"
+        src="../../me.jpg"
         class="w-72 lg:m-6 mt-6 mx-auto rounded-lg shadow-lg"
         alt=""
       />
       <div class="lg:flex lg:flex-col lg:justify-center mx-6 lg:mx-8">
-        <p class="text-4xl py-6  md:text-5xl font-bold">About me</p>
+        <p class="text-4xl py-6 md:text-5xl font-bold">About me</p>
         <p class="text-xl font-normal">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil animi
           id ipsa. Quis, quam omnis atque laboriosam inventore architecto sequi
@@ -19,10 +19,18 @@
         </p>
         <p class="text-2xl font-bold pt-6 lg:pt-20">Go to a section</p>
         <div class="md:flex grid grid-cols-1 gap-2 md:flex-row pt-4 lg:pt-8">
-          <p class="text-xl font-semibold ml-6">Education</p>
-          <p class="text-xl font-semibold ml-6">Experience</p>
-          <p class="text-xl font-semibold ml-6">Skills</p>
-          <p class="text-xl font-semibold ml-6">Contact</p>
+          <p class="text-xl font-semibold ml-6" @click="scroll('education')">
+            Education
+          </p>
+          <p class="text-xl font-semibold ml-6" @click="scroll('experience')">
+            Experience
+          </p>
+          <p class="text-xl font-semibold ml-6" @click="scroll('skills')">
+            Skills
+          </p>
+          <p class="text-xl font-semibold ml-6" @click="scroll('contact')">
+            Contact
+          </p>
         </div>
       </div>
     </div>
@@ -32,6 +40,13 @@
 <script>
 export default {
   name: "Header",
+  methods: {
+    scroll(id) {
+      document.getElementById(id).scrollIntoView({
+        behavior: "smooth",
+      });
+    },
+  },
 };
 </script>
 
