@@ -5,6 +5,7 @@
   <div class="absolute inset-0">
       <Header />
       <Education  />
+      <Experience />
       <Skills  />
       <Contact />
   </div>
@@ -16,6 +17,7 @@
  import Education from './Education.vue'
  import Skills from './Skills.vue'
  import Contact from './Contact.vue'
+ import Experience from './Experience.vue'
 export default {
   name: 'ParticlesJS',
   components : {
@@ -23,6 +25,7 @@ export default {
      Education,
      Skills,
      Contact,
+     Experience,
   },
 
   mounted () {

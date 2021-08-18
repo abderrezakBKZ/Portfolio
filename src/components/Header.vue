@@ -7,7 +7,7 @@
         alt=""
       />
       <div class="lg:flex lg:flex-col lg:justify-center mx-6 lg:mx-8">
-        <p class="text-4xl font-bold py-6">About me</p>
+        <p class="text-4xl py-6  md:text-5xl font-bold">About me</p>
         <p class="text-xl font-normal">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil animi
           id ipsa. Quis, quam omnis atque laboriosam inventore architecto sequi

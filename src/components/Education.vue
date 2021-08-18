@@ -1,8 +1,8 @@
 <template>
-  <div class="mx-6 md:mx-8 font-sans">
-    <p class="text-4xl font-bold py-6">education</p>
+  <div class="mx-6 md:mx-8 my-12">
+    <p class="text-4xl md:text-5xl font-bold">education</p>
     <!-- liste des elements -->
-    <div class="flex flex-col lg:grid lg:grid-cols-2 flex-wrap">
+    <div class="flex flex-col lg:grid lg:grid-cols-2 flex-wrap background p-4 rounded-xl border-2 shadow-lg mt-8">
         <!-- premier element -->
       <div class="flex flex-col mx-auto md:max-w-xl mt-6 p-4">
         
@@ -87,3 +87,10 @@ export default {
   name: "Education",
 };
 </script>
+
+<style scoped>
+.background {
+  background: rgb(194,194,194);
+  background: linear-gradient(135deg, rgba(194,194,194,1) 0%, rgba(255,255,255,1) 50%, rgba(195,203,246,1) 100%);
+}
+</style>

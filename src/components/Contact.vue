@@ -20,6 +20,9 @@
       </span>
       </a>
     </div>
+    <div class="py-8 bg-gray-100 ">
+        <p class="text-xl font-bold text-center">2021-BOUKAZOUHA Abderrezak</p>
+    </div>
   </div>
 </template>
 
