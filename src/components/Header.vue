@@ -8,7 +8,7 @@
       />
       <div class="lg:flex lg:flex-col lg:justify-center mx-6 lg:mx-8">
         <p class="text-4xl py-6 md:text-5xl font-bold">About me</p>
-        <p class="text-xl font-normal">
+        <p class="text-xl font-normal text-justify">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil animi
           id ipsa. Quis, quam omnis atque laboriosam inventore architecto sequi
           repudiandae amet, possimus qui placeat perspiciatis voluptas a officia

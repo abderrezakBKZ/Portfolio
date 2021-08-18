@@ -29,7 +29,7 @@
         "
       >
         <p class="text-xl font-semibold mb-4 text-gray-500">Project name</p>
-        <p class="font-light text-sm text-gray-400">
+        <p class="font-light text-sm text-gray-400 text-justify">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non
           reprehenderit quo numquam repellat, dolor corporis quia optio eum
           explicabo facere magnam nesciunt deserunt, fugit minus iste, tenetur
@@ -63,7 +63,7 @@
         "
       >
         <p class="text-xl font-semibold mb-4 text-gray-500">Project name</p>
-        <p class="font-light text-sm text-gray-400">
+        <p class="font-light text-sm text-gray-400 text-justify">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non
           reprehenderit quo numquam repellat, dolor corporis quia optio eum
           explicabo facere magnam nesciunt deserunt, fugit minus iste, tenetur
@@ -97,7 +97,7 @@
         "
       >
         <p class="text-xl font-semibold mb-4 text-gray-500">Project name</p>
-        <p class="font-light text-sm text-gray-400">
+        <p class="font-light text-sm text-gray-400 text-justify">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non
           reprehenderit quo numquam repellat, dolor corporis quia optio eum
           explicabo facere magnam nesciunt deserunt, fugit minus iste, tenetur

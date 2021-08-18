@@ -42,7 +42,7 @@
             <p class="text-xl font-normal text-gray-600">2020-2022</p>
           </div>
         </div>
-        <p class="text-lg font-normal pt-8 text-gray-500">
+        <p class="text-lg font-normal pt-8 text-gray-500 text-justify">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
           velit ea numquam autem sunt quo pariatur voluptates quos! Dicta
           distinctio ipsam voluptatem veniam vel ea, aliquid optio porro numquam
@@ -78,7 +78,7 @@
             <p class="text-xl font-normal text-gray-600">2020-2022</p>
           </div>
         </div>
-        <p class="text-lg font-normal pt-8 text-gray-500">
+        <p class="text-lg font-normal pt-8 text-gray-500 text-justify">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
           velit ea numquam autem sunt quo pariatur voluptates quos! Dicta
           distinctio ipsam voluptatem veniam vel ea, aliquid optio porro numquam
@@ -112,7 +112,7 @@
             <p class="text-xl font-normal">2020-2022</p>
           </div>
         </div>
-        <p class="text-lg font-normal pt-8">
+        <p class="text-lg font-normal pt-8 text-justify">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
           velit ea numquam autem sunt quo pariatur voluptates quos! Dicta
           distinctio ipsam voluptatem veniam vel ea, aliquid optio porro numquam
